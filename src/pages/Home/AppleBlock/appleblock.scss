@@ -1,0 +1,34 @@
+.phone__block {
+  width: 100%;
+  border-radius: 20px;
+  min-height: 830px;
+  height: auto;
+  padding: 80px 20px;
+  background: rgb(0 0 0);
+  &-desc{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+  }
+  &-title{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+  }
+  &-info{
+    padding: 85px 90px;
+    width: 50%;
+    color: #fff;
+    font-size: 27px;
+    line-height: 46px;
+  }
+  &-image{
+    width: 350px;
+    object-fit: cover;
+    height: 620px;
+  }
+}

@@ -6,7 +6,7 @@ import {MdOutlineFavoriteBorder} from "react-icons/md"
 import {AiOutlineUser} from "react-icons/ai"
 
 import './header.scss'
-import Qpick from "../../assets/QPICK.png"
+import Qpick from "../../assets/img/QPICK.png"
 
 const Header = () => {
     return (
