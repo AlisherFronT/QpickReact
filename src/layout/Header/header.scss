@@ -1,0 +1,39 @@
+.header{
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid #838383;
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+  }
+  &__btns{
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__basket{
+    color: #838383;
+    svg{
+      width: 35px;
+      height: 25px;
+    }
+  }
+  &__favs{
+    color: #838383;
+    svg{
+      width: 35px;
+      height: 25px;
+    }
+  }
+  &__auth{
+    color: #838383;
+    svg{
+      width: 35px;
+      height: 25px;
+    }
+  }
+}

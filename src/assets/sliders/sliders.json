@@ -1,0 +1,20 @@
+[
+  {
+    "image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1660803972361",
+    "title" : "AirPods Pro",
+    "desc" : "Rebuilt from the sound up.",
+    "interval" : 2500
+  },
+  {
+    "image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-smart-keyboard-folio-splitter-202210?wid=280&hei=264&fmt=p-jpg&qlt=95&.v=1664466535888",
+    "title" : "Magic Keyboard",
+    "desc" : "Find the right keyboard for you.",
+    "interval" : 2500
+  },
+  {
+    "image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1671304673229",
+    "title" : "MacBook Pro",
+    "desc" : "Mover. Maker. Boundary breaker.",
+    "interval" : 2500
+  }
+]
