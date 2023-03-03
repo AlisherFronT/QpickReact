@@ -16,12 +16,12 @@ const Footer = () => {
                     <img src={Qpick} alt=""/>
                 </div>
                 <div className="footer__col-sec">
-                    <Link to={'/favorites'} className='footer__link'>Избранное</Link>
-                    <Link to={'/basket'} className='footer__link'>Корзина</Link>
-                    <Link to={'/contacts'} className='footer__link'>Контакты</Link>
+                    <Link to={'/favorites'} className='footer__link'>Favorites</Link>
+                    <Link to={'/basket'} className='footer__link'>Basket</Link>
+                    <Link to={'/contacts'} className='footer__link'>Contacts</Link>
                 </div>
                 <div className="footer__col-third">
-                    <Link className='footer__link'>Условия доставки</Link>
+                    <Link to={'/delivery'} className='footer__link'>Delivery Terms</Link>
                 </div>
                 <div className="footer__col-fourth">
                     <SlSocialVkontakte/>

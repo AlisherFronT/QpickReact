@@ -1,34 +1,43 @@
 .phone__block {
   width: 100%;
-  border-radius: 20px;
-  min-height: 830px;
-  height: auto;
-  padding: 80px 20px;
-  background: rgb(0 0 0);
-  &-desc{
+  padding: 0 35px;
+  &-wrapper {
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    height: 460px;
+    border-radius: 20px;
+    padding: 30px 20px;
+    background: #FFFFFF;
+  }
+    &-info {
+      width: 65%;
+      height: 500px;
+      padding: 30px 0;
+    }
 
+    &-title {
+      color: #101010;
+      font-size: 38px;
+      font-weight: 700;
+      padding: 20px 25px;
+    }
+
+    &-desc {
+      padding: 20px 30px;
+      width: 80%;
+      color: #101010;
+      font-size: 23px;
+    }
+
+    &-image {
+      width: 50%;
+      height: 800px;
+      margin: 60px 20px;
+    }
+
+    &-cover {
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
   }
-  &-title{
-    color: #fff;
-    font-size: 38px;
-    font-weight: 700;
-    align-items: center;
-    text-align: center;
-  }
-  &-info{
-    padding: 85px 90px;
-    width: 50%;
-    color: #fff;
-    font-size: 27px;
-    line-height: 46px;
-  }
-  &-image{
-    width: 350px;
-    object-fit: cover;
-    height: 620px;
-  }
-}

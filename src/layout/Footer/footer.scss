@@ -14,6 +14,10 @@
   &__link{
     color: #101010 ;
     font-size: 18px;
+    &:hover{
+      color: #0070c9;
+      transition: .4s all;
+    }
   }
   .footer__col-sec{
     width: 25%;
@@ -26,6 +30,9 @@
   }
   .footer__col-third{
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
   }
   .footer__col-fourth{
     width: 25%;

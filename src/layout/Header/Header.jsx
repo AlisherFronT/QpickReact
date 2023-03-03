@@ -16,15 +16,15 @@ const Header = () => {
                     <img src={Qpick} alt=""/>
                 </Link>
                 <div className="header__btns">
-                    <Link to={''} className='header__basket'>
+                    <Link to={'/basket'} className='header__basket'>
                         <SlBasket/>
                     </Link>
 
-                    <Link to={''} className='header__favs'>
+                    <Link to={'/favorites'} className='header__favs'>
                         <MdOutlineFavoriteBorder/>
                     </Link>
 
-                    <Link to={''}  className='header__auth'>
+                    <Link to={'/register'}  className='header__auth'>
                         <AiOutlineUser/>
                     </Link>
                 </div>

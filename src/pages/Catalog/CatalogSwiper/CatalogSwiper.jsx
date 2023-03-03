@@ -4,9 +4,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import 'swiper/swiper-bundle.min.css';
+import './catalogswiper.scss'
 
 
-const HomeSwiper = ({slides}) => {
+const CatalogSwiper = ({slides}) => {
     return (
         <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -35,4 +36,4 @@ const HomeSwiper = ({slides}) => {
     );
 };
 
-export default HomeSwiper;
+export default CatalogSwiper;

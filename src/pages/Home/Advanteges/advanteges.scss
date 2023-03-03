@@ -1,37 +1,76 @@
-.advantages__block {
+.advantages{
   width: 100%;
-  border-radius: 20px;
-  min-height: 680px;
-  padding: 80px 20px;
-  background: #fff;
-  margin-top: 30px;
-  &-desc{
+  padding: 25px 35px;
+  &__block{
     width: 100%;
+    height: auto;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    gap: 30px;
+    &-first{
+      width: 300px;
+      height: 270px;
+      background: #101010;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      &-info{
+        justify-content: center;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 40px 20px;
+        &-title{
+          font-size: 27px;
+        }
+        &-desc{
+          font-size: 20px;
+        }
+      }
+    }
 
-  }
-  &-title{
-    width: 50%;
-    color: rgb(0 0 0);
-    font-size: 38px;
-    font-weight: 700;
-    align-items: center;
-    text-align: center;
-  }
-  &-info{
-    padding: 125px 90px;
-    width: 50%;
-    color: rgb( 0 0 0);
-    font-size: 27px;
-    line-height: 40px;
-  }
-  &-image{
-    width: 50%;
-    max-width: 650px;
-    object-fit: cover;
-    min-height: 630px;
-    padding-bottom: 30px;
+    &-second{
+      width: 600px;
+      height: 220px;
+      background: linear-gradient(180deg,#8be962 29%,#6cd179 87%);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      &-info{
+        justify-content: center;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 50px 20px;
+        &-title{
+          font-size: 27px;
+        }
+        &-desc{
+          font-size: 20px;
+        }
+      }
+    }
+
+    &-third{
+      width: 300px;
+      height: 270px;
+      background: #FFFFFF;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      &-info{
+        justify-content: center;
+        color: #101010;
+        text-align: center;
+        padding: 15px 20px;
+        &-title{
+          font-size: 27px;
+        }
+        &-desc{
+          font-size: 20px;
+        }
+      }
+    }
+
   }
 }
