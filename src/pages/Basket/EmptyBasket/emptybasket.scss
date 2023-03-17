@@ -1,0 +1,36 @@
+.empty__basket{
+  width: 100%;
+  &-container{
+    margin:  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 0;
+  }
+  &-img{
+    width: 400px;
+    object-fit: cover;
+    height: 320px;
+  }
+  &-title{
+    font-size: 24px;
+    color: #101010;
+  }
+  &-subtitle{
+    font-size: 18px;
+    color: #838383;
+  }
+  &-btn{
+    width: 400px;
+    height: 70px;
+    background: #101010;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 21px;
+    text-decoration: none;
+  }
+}

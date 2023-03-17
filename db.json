@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1660803961811",
+      "title": "AirPods Pro",
+      "price": 249,
+      "type": "headphones"
+    },
+    {
+      "id": 2,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-compare-airpods-3-202209?wid=210&hei=250&fmt=jpeg&qlt=95&.v=1660804052546",
+      "title": "AirPods 3",
+      "price": 169,
+      "type": "headphones"
+    },
+    {
+      "id": 3,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-compare-airpods-2-202209?wid=210&hei=250&fmt=jpeg&qlt=95&.v=1660804052622",
+      "title": "AirPods",
+      "price": 129,
+      "type": "headphones"
+    },
+    {
+      "id": 4,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-compare-airpods-max-202209?wid=210&hei=250&fmt=jpeg&qlt=95&.v=1660804053742",
+      "title": "AirPods Max",
+      "price": 549,
+      "type": "headphones"
+    },
+    {
+      "id": 5,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-gallery1-202206?wid=2000&hei=1537&fmt=jpeg&qlt=95&.v=1664558461719",
+      "title": "13-inch MacBook Pro Space Gray",
+      "price": 1499,
+      "chip": "M2",
+      "memory": "8GB",
+      "ssd": "512GB",
+      "type": "macbook"
+    },
+    {
+      "id": 6,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-gallery1-202206?wid=2000&hei=1537&fmt=jpeg&qlt=95&.v=1664558461719",
+      "title": "13-inch MacBook Pro Space Gray",
+      "price": 1299,
+      "chip": "M2",
+      "memory": "8GB",
+      "ssd": "256GB",
+      "type": "macbook"
+    },
+    {
+      "id": 7,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-silver-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303678",
+      "title": "MacBook Air Silver",
+      "price": 1199,
+      "chip": "M2",
+      "memory": "8GB",
+      "ssd": "256GB",
+      "type": "macbook"
+    },
+    {
+      "id": 8,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-starlight-gallery1-20220606?wid=2000&hei=1536&fmt=jpeg&qlt=95&.v=1653668116624",
+      "title": "MacBook Air Starlight",
+      "price": 1499,
+      "chip": "M2",
+      "memory": "8GB",
+      "ssd": "512GB",
+      "type": "macbook"
+    },
+    {
+      "id": 9,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-silver-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673790",
+      "title": "16-inch MacBook Pro Silver",
+      "price": 2499,
+      "chip": "M2 Pro",
+      "memory": "16GB",
+      "ssd": "512GB",
+      "type": "macbook"
+    },
+    {
+      "id": 10,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673202",
+      "title": "16-inch MacBook Pro Space Gray",
+      "price": 3499,
+      "chip": "M2 Max",
+      "memory": "32GB",
+      "ssd": "1TB",
+      "type": "macbook"
+    },
+    {
+      "id": 11,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-gallery3-20201110?wid=2000&hei=1536&fmt=jpeg&qlt=95&.v=1664502036215",
+      "title": "MacBook Air Space Gray",
+      "price": 999,
+      "chip": "M1",
+      "memory": "8GB",
+      "ssd": "256GB",
+      "type": "macbook"
+    },
+    {
+      "id": 11,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-14-pro-202209?wid=183&hei=254&fmt=jpeg&qlt=95&.v=1661471046256",
+      "title": "Iphone 14 Pro",
+      "price": 999,
+      "chip": "A16",
+      "memory": "128GB",
+      "type": "phone"
+    },
+    {
+      "id": 12,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-14-pro-202209?wid=183&hei=254&fmt=jpeg&qlt=95&.v=1661471046256",
+      "title": "Iphone 14 Plus",
+      "price": 899,
+      "chip": "A15",
+      "memory": "256GB",
+      "type": "phone"
+    },
+    {
+      "id": 13,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-13-202209?wid=182&hei=254&fmt=jpeg&qlt=95&.v=1660759995963",
+      "title": "Iphone 13",
+      "price": 799,
+      "chip": "A15",
+      "memory": "256GB",
+      "type": "phone"
+    },
+    {
+      "id": 14,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-se-202209?wid=182&hei=254&fmt=jpeg&qlt=95&.v=1660759995953",
+      "title": "Iphone SE",
+      "price": 499,
+      "chip": "A15",
+      "memory": "128GB",
+      "type": "phone"
+    },
+    {
+      "id": 14,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-blue-witb-2020?wid=159&hei=340&fmt=jpeg&qlt=95&.v=1600998132000",
+      "title": "Iphone 12",
+      "price": 599,
+      "chip": "A15",
+      "memory": "128GB",
+      "type": "phone"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -2,6 +2,7 @@
   width: 100%;
   &__container{
     max-width: 1100px;
+    height: 720px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -10,7 +11,7 @@
   }
   .service{
     width: 1000px;
-    height: 150px;
+    height: 200px;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
@@ -21,7 +22,7 @@
   }
   .dostavka{
     width: 1000px;
-    height: 150px;
+    height: 200px;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
@@ -30,15 +31,41 @@
       padding-bottom: 15px;
     }
   }
-  .return{
+  .return {
     width: 1000px;
-    height: 150px;
+    height: 200px;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     padding: 10px 20px;
-    &__title{
+    &__title {
       padding-bottom: 15px;
     }
+  }
+.acc__container{
+  width: 100%;
+  height: auto;
+  padding: 20px 90px;
+}
+  .accordion{
+
+
+  }
+  .item{
+    border: 0;
+    border-radius: 0;
+    padding: 24px 16px;
+  }
+  .header{
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
+

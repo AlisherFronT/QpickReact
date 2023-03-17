@@ -1,14 +1,11 @@
 import React from 'react';
 import "./delivery.scss"
 
-import {
-    Accordion,
-    AccordionItem,
-    AccordionButton,
-    AccordionPanel,
-    AccordionIcon,
-    Box
-} from '@chakra-ui/react'
+import { Accordion} from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css"
+import AccordionItem from "react-bootstrap/AccordionItem";
+import AccordionHeader from "react-bootstrap/AccordionHeader";
+import AccordionBody from "react-bootstrap/AccordionBody";
 
 const Delivery = () => {
     return (
@@ -30,44 +27,28 @@ const Delivery = () => {
                         Return conditions</h2>
                     <p className="return__desc">The task of the organization, in particular the course towards a socially oriented national project, requires us to systematically analyze the development model! Thus, the constant information and technical support of our activities requires us to analyze the system of large-scale changes in a number of parameters! On the other hand, socio-economic development directly depends on comprehensively balanced innovations?</p>
                 </div>
-
             </div>
 
-            <Accordion allowToggle>
-                <AccordionItem>
-                    <h2>
-                        <AccordionButton>
-                            <Box as="span" flex='1' textAlign='left'>
-                                Section 1 title
-                            </Box>
-                            <AccordionIcon />
-                        </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </AccordionPanel>
-                </AccordionItem>
+                <div className="acc__container">
+                    <Accordion className='accordion'>
+                        <AccordionItem eventKey={"1"} className='item'>
+                            <AccordionHeader className='header'> Header 1</AccordionHeader>
+                            <AccordionBody>sk of the organization, in particular the course towards a socially oriented national project, requires us to systematically analyze the development model! Thus, the constant information and technical support of our activities requires us to analyze the system of large-scale changes in a number of parameters! On the other hand, socio-economic development directly depends on comprehensively ba</AccordionBody>
+                        </AccordionItem>
 
-                <AccordionItem>
-                    <h2>
-                        <AccordionButton>
-                            <Box as="span" flex='1' textAlign='left'>
-                                Section 2 title
-                            </Box>
-                            <AccordionIcon />
-                        </AccordionButton>
-                    </h2>
-                    <AccordionPanel pb={4}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                    </AccordionPanel>
-                </AccordionItem>
-            </Accordion>
+                        <AccordionItem eventKey={"2"} className='item'>
+                            <AccordionHeader> Header 2</AccordionHeader>
+                            <AccordionBody>sk of the organization, in particular the course towards a socially oriented national project, requires us to systematically analyze the development model! Thus, the constant information and technical support of our activities requires us to analyze the system of large-scale changes in a number of parameters! On the other hand, socio-economic development directly depends on comprehensively ba</AccordionBody>
+                        </AccordionItem>
+
+                        <AccordionItem eventKey={"3"} className='item'>
+                            <AccordionHeader> Header 3</AccordionHeader>
+                            <AccordionBody>sk of the organization, in particular the course towards a socially oriented national project, requires us to systematically analyze the development model! Thus, the constant information and technical support of our activities requires us to analyze the system of large-scale changes in a number of parameters! On the other hand, socio-economic development directly depends on comprehensively ba</AccordionBody>
+                        </AccordionItem>
+                    </Accordion>
+                </div>
+
+
         </section>
     );
 };

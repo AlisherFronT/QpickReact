@@ -1,0 +1,21 @@
+.contacts{
+  width: 100%;
+  &__columns{
+    display: flex;
+  }
+  &__first-block{
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+    height: 500px;
+  }
+  &__title{
+    font-size: 18px;
+    line-height: 21px;
+  }
+  &__map{
+    width: 722px;
+    height: 420px;
+    object-fit: cover;
+  }
+}

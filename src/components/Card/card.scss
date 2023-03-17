@@ -1,0 +1,50 @@
+.card {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 20px 15px;
+  &__img {
+    width: 220px;
+    height: 238px;
+    margin: 0 auto;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  &__name {
+    font-size: 23px;
+    color: #1C1C27;
+  }
+
+  &__price {
+    color: #FFA542;
+  }
+}
+.favorite__icon{
+    width: 20px;
+    height: 20px;
+    color: #101010;
+    top: 10;
+    left: 0;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.basket__icon{
+  width: 200px;
+  height: 35px!important;
+  display: flex;
+  padding-bottom: -30px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}

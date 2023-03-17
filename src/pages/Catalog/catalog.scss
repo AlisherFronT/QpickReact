@@ -1,0 +1,29 @@
+.catalog{
+  width: 100%;
+  height: 1200px;
+  background: #EAEAEA;
+  &__title{
+    margin: 40px 90px;
+  }
+  &__list{
+    &-title{
+      padding: 12px 90px;
+      font-size: 28px;
+      color: #838383;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+  &__container{
+    width: 100%;
+    min-height: 100vh;
+    margin:  0 auto;
+  }
+}
+.headphone__row{
+  border-top: 1px solid #838383;
+  border-bottom: 1px solid #838383;
+  padding: 30px 50px;
+}
+
+

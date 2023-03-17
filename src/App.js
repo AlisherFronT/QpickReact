@@ -6,6 +6,10 @@ import Register from "./pages/Register/Register";
 import Login from "./pages/Login/Login";
 import Catalog from "./pages/Catalog/Catalog";
 import Delivery from "./pages/Delivery/Delivery"
+import Basket from "./pages/Basket/Basket";
+import EmptyBasket from "./pages/Basket/EmptyBasket/EmptyBasket";
+import Favorites from "./pages/Favorites/Favorites";
+import Contacts from "./pages/Contacts/Contacts";
 
 
 function App() {
@@ -16,6 +20,10 @@ function App() {
                 <Route path={'/'} element={<Home/>}/>
                 <Route path={'/catalog'} element={<Catalog/>}/>
                 <Route path={'/delivery'} element={<Delivery/>}/>
+                <Route path={'/basket'} element={<Basket/>}/>
+                <Route path={'/empty'} element={<EmptyBasket/>}/>
+                <Route path={'/favorites'} element={<Favorites/>}/>
+                <Route path={'/contacts'} element={<Contacts/>}/>
             </Route>
 
             <Route path={'/register'} element={<Register/>}/>
