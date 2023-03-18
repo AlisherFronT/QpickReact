@@ -1,6 +1,6 @@
 .card {
-  width: 300px;
-  height: 400px;
+  width: 360px;
+  min-height: 410px;
   display: flex;
   flex-direction: column;
   background: #FFFFFF;
@@ -11,6 +11,7 @@
     width: 220px;
     height: 238px;
     margin: 0 auto;
+    object-fit: cover;
   }
   &__info {
     display: flex;
