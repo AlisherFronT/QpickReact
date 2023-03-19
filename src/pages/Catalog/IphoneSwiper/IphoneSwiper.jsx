@@ -12,8 +12,8 @@ const IphoneSwiper = ({item}) => {
     useEffect(() => {
         axios('http://localhost:8080/products')
             .then(({data}) => {
-                const macbookList = data.filter(product => product.type === 'phone');
-                setProducts(macbookList)
+                const iphoneList = data.filter(product => product.type === 'phone');
+                setProducts(iphoneList)
             })
     }, []);
 

@@ -24,7 +24,7 @@ const Advanteges = () => {
                 <div className="advantages__block-third">
                     <div className="advantages__block-third-info">
                         <h2 className="advantages__block-third-info-title">How we started</h2>
-                        <p className="advantages__block-third-info-desc">Our online electronics store was founded with one goal in mind: to provide customers with a seamless shopping experience for all their electronic needs. With a team of experienced professionals.</p>
+                        <p className="advantages__block-third-info-desc">Our online electronics store was founded with one goal in mind: to provide customers with a seamless shopping experience for all their electronic needs.</p>
                     </div>
                 </div>
             </div>

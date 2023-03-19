@@ -1,21 +1,22 @@
 .card {
   width: 360px;
-  height: 800px;
-  min-height: 800px;
-  max-height: 800px;
+  height: 450px;
+  min-height: 470px;
+  max-height: 470px;
   display: flex;
   flex-direction: column;
   background: #FFFFFF;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  border-radius: 30px;
-  padding: 20px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 10px;
   &__img {
     width: 100%;
     max-width: 300px;
     height: 238px;
     min-height: 300px;
     margin: 0 auto;
-    object-fit: cover;
+    object-fit: contain;
   }
   &__info {
     display: flex;
@@ -23,9 +24,10 @@
     flex-direction: column;
     padding: 20px;
   }
-  &__name {
+  &__title {
     font-size: 23px;
     color: #1C1C27;
+    padding: 10px 30px;
   }
   &__btn{
     width: 100px;
@@ -39,11 +41,13 @@
   }
   &__price {
     color: #FFA542;
+    margin-right: 20px;
+    font-size: 22px;
   }
   &__bottom{
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px;
+    padding: 10px 10px;
     align-items: center;
     text-align: center;
     margin: 0 auto;

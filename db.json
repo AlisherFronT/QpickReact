@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1660803961811",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1674044805/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/251322_0_tpksnj.png/mxw_1440,f_auto",
       "title": "AirPods Pro",
       "price": 249,
       "type": "headphones",
@@ -54,7 +54,7 @@
     },
     {
       "id": 5,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1664581580690",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1663350670/Croma%20Assets/Computers%20Peripherals/Laptop/Images/245235_0_lkhkv1.png/mxw_1440,f_auto",
       "title": " MacBook Air Space Gray",
       "price": 999,
       "type": "macbook",
@@ -126,7 +126,7 @@
     {
       "id": 9,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-silver-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673790",
-      "title": "16-inch MacBook Pro Silver",
+      "title": "MacBook Pro Silver",
       "price": 2499,
       "type": "macbook",
       "info": {
@@ -142,7 +142,7 @@
     {
       "id": 10,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673202",
-      "title": "16-inch MacBook Pro Space Gray",
+      "title": "MacBook Pro Space Gray",
       "price": 3499,
       "type": "macbook",
       "info": {

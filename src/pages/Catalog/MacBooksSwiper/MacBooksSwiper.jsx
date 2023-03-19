@@ -4,6 +4,7 @@ import "./macbookswiper.scss"
 import axios from "axios";
 import {Swiper, SwiperSlide} from "swiper/react";
 import CardItem from "../../../components/CardItem/CardItem";
+import {A11y, Navigation, Pagination, Scrollbar} from "swiper";
 
 const MacBooksSwiper = ({item}) => {
 

@@ -5,6 +5,8 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import 'swiper/swiper-bundle.min.css';
 import './catalogswiper.scss'
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 
 const CatalogSwiper = ({slides}) => {
@@ -15,8 +17,8 @@ const CatalogSwiper = ({slides}) => {
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
+            loop={true}
+            modules={[Pagination, Navigation]}
         >
             {slides.map((slide) => (
                 <SwiperSlide key={slide.image}>
