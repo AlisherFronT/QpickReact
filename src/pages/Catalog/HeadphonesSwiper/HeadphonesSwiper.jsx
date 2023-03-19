@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import "./headphonesswiper.scss";
 
 import {Swiper, SwiperSlide} from "swiper/react";
-import Card from "../../../components/Card/Card";
+import CardItem from "../../../components/CardItem/CardItem";
 import axios from "axios";
 
 const HeadphonesSwiper = ({item}) => {
@@ -27,7 +27,7 @@ const HeadphonesSwiper = ({item}) => {
                 {
                     products.map((item) => (
                         <SwiperSlide>
-                            <Card item={item}/>
+                            <CardItem item={item}/>
                         </SwiperSlide>
                     ))
                 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./favorites.scss"
 
-import Card from "../../components/Card/Card";
+import CardItem from "../../components/CardItem/CardItem";
 
 const Favorites = () => {
     return (
@@ -9,7 +9,7 @@ const Favorites = () => {
             <div className="favorites__container">
                 <h2 className="favorites__title">Favorites</h2>
                 <div className="favorites__row">
-                    <Card/>
+                    <CardItem/>
                 </div>
             </div>
         </section>

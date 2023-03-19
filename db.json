@@ -5,160 +5,241 @@
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83_AV2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1660803961811",
       "title": "AirPods Pro",
       "price": 249,
-      "type": "headphones"
+      "type": "headphones",
+      "info": {
+        "sound": "Active Noise Cancellation and Transparency mode",
+        "waterproof": "Sweat and water resistant AirPods and charging caseᴼᴼ",
+        "battery": "Up to 20 hours of listening time with a single chargeᴼᴼᴼ",
+        "case": "Lightning Charging Case or MagSafe Charging Case"
+      }
     },
     {
       "id": 2,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-compare-airpods-3-202209?wid=210&hei=250&fmt=jpeg&qlt=95&.v=1660804052546",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1632861342000",
       "title": "AirPods 3",
       "price": 169,
-      "type": "headphones"
+      "type": "headphones",
+      "info": {
+        "sound": "Active Noise Cancellation and Transparency mode",
+        "waterproof": "Sweat and water resistant AirPods and charging caseᴼᴼ",
+        "battery": "Up to 20 hours of listening time with a single chargeᴼᴼᴼ",
+        "case": "Lightning Charging Case or MagSafe Charging Case"
+      }
     },
     {
       "id": 3,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-compare-airpods-2-202209?wid=210&hei=250&fmt=jpeg&qlt=95&.v=1660804052622",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MV7N2?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1551489688005",
       "title": "AirPods",
       "price": 129,
-      "type": "headphones"
+      "type": "headphones",
+      "info": {
+        "sound": "Active Noise Cancellation and Transparency mode",
+        "waterproof": "Sweat and water resistant AirPods and charging caseᴼᴼ",
+        "battery": "Up to 20 hours of listening time with a single chargeᴼᴼᴼ",
+        "case": "Lightning Charging Case or MagSafe Charging Case"
+      }
     },
     {
       "id": 4,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-compare-airpods-max-202209?wid=210&hei=250&fmt=jpeg&qlt=95&.v=1660804053742",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-spacegray-202011?wid=470&hei=556&fmt=png-alpha&.v=1604709508000",
       "title": "AirPods Max",
       "price": 549,
-      "type": "headphones"
+      "type": "headphones",
+      "info": {
+        "sound": "Active Noise Cancellation and Transparency mode",
+        "waterproof": "Sweat and water resistant AirPods and charging caseᴼᴼ",
+        "battery": "Up to 20 hours of listening time with a single chargeᴼᴼᴼ",
+        "case": "Lightning Charging Case or MagSafe Charging Case"
+      }
     },
     {
       "id": 5,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-gallery1-202206?wid=2000&hei=1537&fmt=jpeg&qlt=95&.v=1664558461719",
-      "title": "13-inch MacBook Pro Space Gray",
-      "price": 1499,
-      "chip": "M2",
-      "memory": "8GB",
-      "ssd": "512GB",
-      "type": "macbook"
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1664581580690",
+      "title": " MacBook Air Space Gray",
+      "price": 999,
+      "type": "macbook",
+      "info": {
+        "chip": "Apple M1 chip with 8‑core CPU, 7‑core GPU, 16‑core Neural Engine",
+        "memory": "8GB unified memory",
+        "ssd": "256GB SSD storage",
+        "display": "13.6-inch Liquid Retina display with True Tone",
+        "camera": "1080p FaceTime HD camera",
+        "usb": "Two Thunderbolt / USB 4 ports",
+        "adapter": "30W USB-C Power Adapter",
+        "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
+      }
     },
     {
       "id": 6,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-gallery1-202206?wid=2000&hei=1537&fmt=jpeg&qlt=95&.v=1664558461719",
-      "title": "13-inch MacBook Pro Space Gray",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303665",
+      "title": "MacBook Air Midnight",
       "price": 1299,
-      "chip": "M2",
-      "memory": "8GB",
-      "ssd": "256GB",
-      "type": "macbook"
+      "type": "macbook",
+      "info": {
+        "chip": "Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine",
+        "memory": "8GB unified memory",
+        "ssd": "512GB SSD storage",
+        "display": "13.6-inch Liquid Retina display with True Tone",
+        "camera": "1080p FaceTime HD camera",
+        "port": "MagSafe 3 charging port",
+        "usb": "Two Thunderbolt / USB 4 ports",
+        "adapter": "35W Dual USB-C Port Compact Power Adapter",
+        "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
+      }
     },
     {
       "id": 7,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-silver-select-20220606?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1653084303678",
       "title": "MacBook Air Silver",
       "price": 1199,
-      "chip": "M2",
-      "memory": "8GB",
-      "ssd": "256GB",
-      "type": "macbook"
+      "type": "macbook",
+      "info": {
+        "chip": "Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine",
+        "memory": "8GB unified memory",
+        "ssd": "128GB SSD storage",
+        "display": "13.6-inch Liquid Retina display with True Tone",
+        "camera": "1080p FaceTime HD camera",
+        "port": "MagSafe 3 charging port",
+        "usb": "Two Thunderbolt / USB 4 ports",
+        "adapter": "30W Dual USB-C Port Compact Power Adapter",
+        "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
+      }
     },
     {
       "id": 8,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-starlight-gallery1-20220606?wid=2000&hei=1536&fmt=jpeg&qlt=95&.v=1653668116624",
       "title": "MacBook Air Starlight",
       "price": 1499,
-      "chip": "M2",
-      "memory": "8GB",
-      "ssd": "512GB",
-      "type": "macbook"
+      "type": "macbook",
+      "info": {
+        "chip": "Apple M2 chip with 8‑core CPU, 18‑core GPU, 16‑core Neural Engine",
+        "memory": "8GB unified memory",
+        "ssd": "512GB SSD storage",
+        "display": "13.6-inch Liquid Retina display with True Tone",
+        "camera": "1080p FaceTime HD camera",
+        "port": "MagSafe 3 charging port",
+        "usb": "Two Thunderbolt / USB 4 ports",
+        "adapter": "35W Dual USB-C Port Compact Power Adapter",
+        "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
+      }
     },
     {
       "id": 9,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-silver-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673790",
       "title": "16-inch MacBook Pro Silver",
       "price": 2499,
-      "chip": "M2 Pro",
-      "memory": "16GB",
-      "ssd": "512GB",
-      "type": "macbook"
+      "type": "macbook",
+      "info": {
+        "chip": "Apple M2 Pro with 12‑core CPU, 19‑core GPU, 16‑core Neural Engine",
+        "memory": "16GB unified memory",
+        "ssd": "1TB SSD storage",
+        "display": "14-inch Liquid Retina XDR display²",
+        "usb": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "adapter": "96W USB-C Power Adapter",
+        "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
+      }
     },
     {
       "id": 10,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673202",
       "title": "16-inch MacBook Pro Space Gray",
       "price": 3499,
-      "chip": "M2 Max",
-      "memory": "32GB",
-      "ssd": "1TB",
-      "type": "macbook"
+      "type": "macbook",
+      "info": {
+        "chip": "Apple M2 Max with 12‑core CPU, 30‑core GPU, 16‑core Neural Engine",
+        "memory": "32GB unified memory",
+        "ssd": "1TB SSD storage",
+        "display": "14-inch Liquid Retina XDR display²",
+        "usb": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "adapter": "96W USB-C Power Adapter",
+        "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
+      }
     },
     {
       "id": 11,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-gallery3-20201110?wid=2000&hei=1536&fmt=jpeg&qlt=95&.v=1664502036215",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-digitalmat-gallery-1-202206?wid=364&hei=333&fmt=png-alpha&.v=1664613515821",
       "title": "MacBook Air Space Gray",
-      "price": 999,
-      "chip": "M1",
-      "memory": "8GB",
-      "ssd": "256GB",
-      "type": "macbook"
+      "price": 1299,
+      "type": "macbook",
+      "info": {
+        "chip": "Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine",
+        "memory": "8GB unified memory",
+        "ssd": "256GB SSD storage",
+        "display": "13-inch Retina display with True Tone",
+        "port": "Two Thunderbolt / USB 4 ports",
+        "touchpad": "Force Touch trackpad",
+        "keyboard": "Backlit Magic Keyboard - US English"
+      }
     },
     {
       "id": 11,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-14-pro-202209?wid=183&hei=254&fmt=jpeg&qlt=95&.v=1661471046256",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-5-202209?wid=364&hei=333&fmt=png-alpha&.v=1663346233360",
       "title": "Iphone 14 Pro",
       "price": 999,
-      "chip": "A16",
-      "memory": "128GB",
-      "type": "phone"
+      "type": "phone",
+      "info": {
+        "display": "6.7″ or 6.1″, Super Retina XDR displayfootnote¹, ProMotion technology Always-On display",
+        "chip": "A16 Bionic chip",
+        "battery": "Up to 29 hours video playbackfootnote⁴",
+        "face": "Face ID",
+        "connect": "Superfast 5G cellularfootnote⁵"
+      }
     },
     {
       "id": 12,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-14-pro-202209?wid=183&hei=254&fmt=jpeg&qlt=95&.v=1661471046256",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14-digitalmat-gallery-3-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813794",
       "title": "Iphone 14 Plus",
       "price": 899,
-      "chip": "A15",
-      "memory": "256GB",
-      "type": "phone"
+      "type": "phone",
+      "info": {
+        "display": "6.7″ or 6.1″, Super Retina XDR displayfootnote¹",
+        "chip": "A15 chip",
+        "battery": "Up to 25 hours video playbackfootnote⁴",
+        "face": "Face ID",
+        "connect": "Superfast 5G cellularfootnote⁵"
+      }
     },
     {
       "id": 13,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-13-202209?wid=182&hei=254&fmt=jpeg&qlt=95&.v=1660759995963",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122",
       "title": "Iphone 13",
-      "price": 799,
-      "chip": "A15",
-      "memory": "256GB",
-      "type": "phone"
+      "price": 699,
+      "type": "phone",
+      "info": {
+        "display": "6.1″ or 5.4″, Super Retina XDR displayfootnote¹",
+        "chip": "A15 Bionic chip with 4-core GPU",
+        "battery": "Up to 20 hours video playbackfootnote⁴",
+        "face": "Face ID",
+        "connect": "Superfast 5G cellularfootnote⁵"
+      }
     },
     {
       "id": 14,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-compare-iphone-se-202209?wid=182&hei=254&fmt=jpeg&qlt=95&.v=1660759995953",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579761",
       "title": "Iphone SE",
-      "price": 499,
-      "chip": "A15",
-      "memory": "128GB",
-      "type": "phone"
+      "price": 429,
+      "type": "phone",
+      "info": {
+        "display": "4.7”, Retina HD displayfootnote¹",
+        "chip": "A15 Bionic chip with 4-core GPU",
+        "battery": "Up to 15 hours video playbackfootnote⁴",
+        "face": "Face ID",
+        "connect": "Superfast 5G cellularfootnote⁵"
+      }
     },
     {
       "id": 14,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-blue-witb-2020?wid=159&hei=340&fmt=jpeg&qlt=95&.v=1600998132000",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000",
       "title": "Iphone 12",
       "price": 599,
-      "chip": "A15",
-      "memory": "128GB",
-      "type": "phone"
+      "type": "phone",
+      "info": {
+        "display": "6.1-inch Super Retina XDR displayfootnote¹ ",
+        "chip": "A14 Bionic chip with 4-core GPU",
+        "battery": "Up to 22 hours video playbackfootnote⁴",
+        "face": "Face ID",
+        "connect": "Superfast 5G cellularfootnote⁵"
+      }
     }
-  ],
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

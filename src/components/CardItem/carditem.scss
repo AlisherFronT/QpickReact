@@ -1,6 +1,8 @@
 .card {
   width: 360px;
-  min-height: 410px;
+  height: 800px;
+  min-height: 800px;
+  max-height: 800px;
   display: flex;
   flex-direction: column;
   background: #FFFFFF;
@@ -8,24 +10,43 @@
   border-radius: 30px;
   padding: 20px 15px;
   &__img {
-    width: 220px;
+    width: 100%;
+    max-width: 300px;
     height: 238px;
+    min-height: 300px;
     margin: 0 auto;
     object-fit: cover;
   }
   &__info {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     padding: 20px;
   }
-
   &__name {
     font-size: 23px;
     color: #1C1C27;
   }
-
+  &__btn{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 980px;
+    background: #0071e3;
+    outline: none;
+    border: none;
+  }
   &__price {
     color: #FFA542;
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 .favorite__icon{

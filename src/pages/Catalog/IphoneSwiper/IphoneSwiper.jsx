@@ -1,24 +1,24 @@
 import React, {useEffect, useState} from 'react';
-import "./macbookswiper.scss"
+import "./iphoneswiper.scss"
 
 import axios from "axios";
 import {Swiper, SwiperSlide} from "swiper/react";
 import CardItem from "../../../components/CardItem/CardItem";
 
-const MacBooksSwiper = ({item}) => {
+const IphoneSwiper = ({item}) => {
 
     const [products, setProducts] = useState([])
 
     useEffect(() => {
         axios('http://localhost:8080/products')
             .then(({data}) => {
-                const macbookList = data.filter(product => product.type === 'macbook');
+                const macbookList = data.filter(product => product.type === 'phone');
                 setProducts(macbookList)
             })
     }, []);
 
     return (
-        <div className="macbook__row">
+        <div className="iphone__row">
             <Swiper
                 slidesPerView={3}
                 spaceBetween={50}
@@ -36,4 +36,4 @@ const MacBooksSwiper = ({item}) => {
     );
 };
 
-export default MacBooksSwiper;
+export default IphoneSwiper;

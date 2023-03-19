@@ -8,6 +8,7 @@ import slides from "../../assets/sliders/sliders.json"
 
 import HeadphonesSwiper from "./HeadphonesSwiper/HeadphonesSwiper";
 import MacBooksSwiper from "./MacBooksSwiper/MacBooksSwiper";
+import IphoneSwiper from "./IphoneSwiper/IphoneSwiper";
 
 
 const Catalog = () => {
@@ -22,6 +23,9 @@ const Catalog = () => {
 
                 <h2 className="catalog__list-title">MacBooks</h2>
                 <MacBooksSwiper/>
+
+                <h2 className="catalog__list-title">Iphones</h2>
+                <IphoneSwiper/>
 
             </div>
         </section>
