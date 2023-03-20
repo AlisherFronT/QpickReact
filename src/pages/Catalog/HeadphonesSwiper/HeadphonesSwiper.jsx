@@ -27,7 +27,7 @@ const HeadphonesSwiper = ({item}) => {
                 {
                     products.map((item) => (
                         <SwiperSlide>
-                            <CardItem item={item}/>
+                            <CardItem item={item} key={item.id}/>
                         </SwiperSlide>
                     ))
                 }

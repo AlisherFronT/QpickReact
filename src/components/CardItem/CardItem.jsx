@@ -5,17 +5,12 @@ import "./carditem.scss"
 import Button from '@mui/material/Button';
 import { Card, CardBody, CardFooter, Image, Stack, Heading, Text } from '@chakra-ui/react'
 import {SlBasket} from "react-icons/sl"
+import {useNavigate} from "react-router-dom";
 
 
 const CardItem = ({item}) => {
 
-    const [cardInfo, setCardInfo] = useState([])
-
-    useEffect(() => {
-        axios.get('http://localhost:8080/products').then(({data}) => setCardInfo(data.info))
-    }, []);
-
-
+    const navigate = useNavigate()
 
     return (
         <Card className='card'
@@ -27,6 +22,7 @@ const CardItem = ({item}) => {
                 src={item.image}
                 alt={item.image}
                 className='card__img'
+                onClick={() => navigate(`/product/${item.id}`)}
             />
 
             <Stack>
