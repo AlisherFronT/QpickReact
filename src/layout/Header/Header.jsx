@@ -7,8 +7,16 @@ import {AiOutlineUser} from "react-icons/ai"
 
 import './header.scss'
 import Qpick from "../../assets/img/QPICK.png"
+import {useDispatch, useSelector} from "react-redux";
+import store from "../../redux";
+import {logOutAccount} from "../../redux/reducers/user";
 
 const Header = () => {
+
+    const {user} = useSelector((store) => store.user)
+
+    const dispatch = useDispatch()
+
     return (
         <header className='header'>
             <div className="header__top">
@@ -24,9 +32,22 @@ const Header = () => {
                         <MdOutlineFavoriteBorder/>
                     </Link>
 
-                    <Link to={'/register'}  className='header__auth'>
-                        <AiOutlineUser/>
-                    </Link>
+                    {
+                        user.email.length ?
+                            <p onClick={() =>
+                                {dispatch(logOutAccount())
+                                localStorage.removeItem('user')
+                                }}
+                                className='header__auth'>
+                                 Exit
+                             </p>
+                            :
+                            <Link to={'/register'}  className='header__auth'>
+                                <AiOutlineUser/>
+                             </Link>
+                    }
+
+
                 </div>
             </div>
         </header>

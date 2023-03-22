@@ -176,7 +176,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 12,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14pro-digitalmat-gallery-5-202209?wid=364&hei=333&fmt=png-alpha&.v=1663346233360",
       "title": "Iphone 14 Pro",
       "price": 999,
@@ -190,7 +190,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 13,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone14-digitalmat-gallery-3-202209?wid=364&hei=333&fmt=png-alpha&.v=1662055813794",
       "title": "Iphone 14 Plus",
       "price": 899,
@@ -204,7 +204,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 14,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone13-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644988765122",
       "title": "Iphone 13",
       "price": 699,
@@ -218,7 +218,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 15,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphonese-digitalmat-gallery-3-202203?wid=364&hei=333&fmt=png-alpha&.v=1644987579761",
       "title": "Iphone SE",
       "price": 429,
@@ -232,7 +232,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 16,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000",
       "title": "Iphone 12",
       "price": 599,
@@ -244,6 +244,36 @@
         "face": "Face ID",
         "connect": "Superfast 5G cellularfootnote⁵"
       }
+    }
+  ],
+  "users": [
+    {
+      "email": "alisher@mail.ru",
+      "password": "$2a$10$9yTH4DYteWKzqeXW9vZ2muLXjyaRCvtQkPFrWC2mxSLIPlrwpQvIK",
+      "login": "alisher",
+      "passwordAgain": "alisher007",
+      "id": 1
+    },
+    {
+      "email": "hazbulla@mail.com",
+      "password": "$2a$10$uds81GgAakETYQEKDT5MMesWmjhvNaP49bBlkiiGCvY71Tq/5rwPe",
+      "login": "hazabraza",
+      "passwordAgain": "password123",
+      "id": 2
+    },
+    {
+      "email": "almaz@mail.ru",
+      "password": "$2a$10$zIm2T6sUqtNPSMfgJAlmPOy6BsdTCC/QYtHL1tBysEg2GsR36.gqW",
+      "login": "almaz",
+      "passwordAgain": "almaz123",
+      "id": 3
+    },
+    {
+      "email": "iskender@mail.ru",
+      "password": "$2a$10$l33fjOkSJ6z6SIzJT2VNpu8zA6DjgByC6KB3cX3/sHpySMOO5VUJa",
+      "login": "isko",
+      "passwordAgain": "password123",
+      "id": 4
     }
   ]
 }

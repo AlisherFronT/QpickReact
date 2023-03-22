@@ -13,8 +13,20 @@ import EmptyBasket from "./pages/Basket/EmptyBasket/EmptyBasket";
 import Favorites from "./pages/Favorites/Favorites";
 import Contacts from "./pages/Contacts/Contacts";
 import Product from "./pages/Product/Product";
+import {useEffect} from "react";
+import {useDispatch} from "react-redux";
+import {signInAccount} from "./redux/reducers/user";
 
 function App() {
+
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        if (localStorage.getItem('user') !== null) {
+            dispatch(signInAccount(JSON.parse(localStorage.getItem('user'))))
+        }
+    })
+
   return (
     <div className="App">
         <Routes>

@@ -1,10 +1,13 @@
 import React from 'react';
 import "./register.scss";
 import { useForm } from "react-hook-form";
+import {useDispatch} from "react-redux";
 
 import TextField from '@mui/material/TextField';
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import Button from '@mui/material/Button';
+import axios from "axios";
+import {signInAccount} from "../../redux/reducers/user";
 
 const Register = () => {
 
@@ -18,6 +21,27 @@ const Register = () => {
         }
     } = useForm({mode: "onBlur"})
 
+    const dispatch = useDispatch()
+
+    const navigate = useNavigate()
+
+    const onSubmit = (data) => {
+        axios.post('http://localhost:8080/register', data)
+            .then((resolve) => {
+                dispatch(signInAccount({
+                    ...resolve.data.user,
+                    token: resolve.data.accessToken,
+                }))
+                navigate('/')
+                localStorage.setItem('user', JSON.stringify({
+                    ...resolve.data.user,
+                    token: resolve.data.accessToken,
+                }))
+            })
+            .catch((err) => {
+                console.log(err)
+            })
+    }
 
     return (
         <div className='register'>
@@ -25,65 +49,7 @@ const Register = () => {
                 <h2 className='register__title'>Create your Qpick ID</h2>
                 <Link className='register__link' to={'/login'}>Already have Qpick ID?</Link>
 
-                <form action="" className="register__form" noValidate>
-                    <div className="register__form-info">
-                        <label htmlFor="" className="register__label">
-                            <TextField
-                                {...register('name', {
-                                    required: {
-                                        message: 'Enter your name',
-                                        value: true
-                                    },
-                                    maxLength: {
-                                        message: 'Maximum length 20 characters',
-                                        value: 20,
-                                    },
-                                    minLength: {
-                                        message: 'Minimum length 3 characters',
-                                        value: 3,
-                                    },
-                                })}
-                                placeholder='Enter your Name'
-                                className='name'
-                                id="standard-basic"
-                                label="Name"
-                                variant="outlined"
-                            />
-
-                            <p className='register__error'>
-                                {errors.name && errors.name.message}
-                            </p>
-                        </label>
-
-                        <label htmlFor="" className="register__label">
-                            <TextField
-                                {...register('surname', {
-                                    required: {
-                                        message: 'Enter a last name',
-                                        value: true,
-                                    },
-                                    maxLength: {
-                                        message: 'Maximum length 20 characters',
-                                        value: 20,
-                                    },
-                                    minLength: {
-                                        message: 'Minimum length 3 characters',
-                                        value: 3,
-                                    },
-                                })}
-                                placeholder='Enter your Surname'
-                                className='surname'
-                                id="standard-basic"
-                                label="Surname"
-                                variant="outlined"
-                            />
-                            <p className='register__error'>
-                                {errors.surname && errors.surname.message}
-                            </p>
-                        </label>
-
-                    </div>
-
+                <form onSubmit={handleSubmit(onSubmit)} className="register__form" noValidate>
                     <label htmlFor="" className="register__label">
                         <TextField
                             {...register('email',{
@@ -193,7 +159,7 @@ const Register = () => {
                     </label>
 
 
-                    <Button className='button' variant="contained">Continue</Button>
+                    <Button type={"submit"} className='button' variant="contained">Continue</Button>
 
                 </form>
             </div>
