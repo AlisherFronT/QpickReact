@@ -125,7 +125,7 @@
     },
     {
       "id": 9,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-silver-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673790",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1663415332/Croma%20Assets/Computers%20Peripherals/Laptop/Images/245227_0_ton7gy.png/mxw_1440,f_auto",
       "title": "MacBook Pro Silver",
       "price": 2499,
       "type": "macbook",
@@ -134,6 +134,7 @@
         "memory": "16GB unified memory",
         "ssd": "1TB SSD storage",
         "display": "14-inch Liquid Retina XDR display²",
+        "camera": "1080p FaceTime HD camera",
         "usb": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
         "adapter": "96W USB-C Power Adapter",
         "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
@@ -141,7 +142,7 @@
     },
     {
       "id": 10,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202301?wid=2000&hei=1222&fmt=jpeg&qlt=95&.v=1671304673202",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1674479192/Croma%20Assets/Computers%20Peripherals/Laptop/Images/268360_r00zoz.png/mxw_1440,f_auto",
       "title": "MacBook Pro Space Gray",
       "price": 3499,
       "type": "macbook",
@@ -150,6 +151,7 @@
         "memory": "32GB unified memory",
         "ssd": "1TB SSD storage",
         "display": "14-inch Liquid Retina XDR display²",
+        "camera": "1080p FaceTime HD camera",
         "usb": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
         "adapter": "96W USB-C Power Adapter",
         "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
@@ -162,13 +164,15 @@
       "price": 1299,
       "type": "macbook",
       "info": {
-        "chip": "Apple M2 chip with 8‑core CPU, 10‑core GPU, 16‑core Neural Engine",
+        "chip": "Apple M2 chip with 8‑core CPU, 8‑core GPU, 16‑core Neural Engine",
         "memory": "8GB unified memory",
-        "ssd": "256GB SSD storage",
-        "display": "13-inch Retina display with True Tone",
-        "port": "Two Thunderbolt / USB 4 ports",
-        "touchpad": "Force Touch trackpad",
-        "keyboard": "Backlit Magic Keyboard - US English"
+        "ssd": "128GB SSD storage",
+        "display": "13.6-inch Liquid Retina display with True Tone",
+        "camera": "1080p FaceTime HD camera",
+        "port": "MagSafe 3 charging port",
+        "usb": "Two Thunderbolt / USB 4 ports",
+        "adapter": "30W Dual USB-C Port Compact Power Adapter",
+        "keyboard": "Backlit Magic Keyboard with Touch ID - US English"
       }
     },
     {

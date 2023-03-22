@@ -36,7 +36,7 @@ const CardItem = ({item}) => {
                     </Button>
 
                     <Text py='2' className='card__price'>
-                        $ {item.price}
+                         {item.price} $
                     </Text>
                 </CardFooter>
             </Stack>
