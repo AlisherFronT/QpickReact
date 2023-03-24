@@ -13,7 +13,7 @@ const Footer = () => {
         <footer className='footer'>
             <div className="footer__container">
                 <div className="footer__col-one">
-                    <img src={Qpick} alt=""/>
+                    <h2 className='footer__title'>QPICK</h2>
                 </div>
                 <div className="footer__col-sec">
                     <Link to={'/favorites'} className='footer__link'>Favorites</Link>

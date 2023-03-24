@@ -17,16 +17,51 @@
   }
   &__basket{
     color: #838383;
+    position: relative;
     svg{
       width: 35px;
       height: 25px;
     }
+    &-icon{
+      color: #838383;
+    }
+    &-count{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #0070c9;
+      text-align: center;
+      border-radius: 15px;
+      color: #FFFFFF;
+      font-size: 12px;
+      z-index: 5;
+      left: 24px;
+      top: -5px;
+    }
   }
-  &__favs{
+
+  &__favorites{
     color: #838383;
+    position: relative;
     svg{
       width: 35px;
       height: 25px;
+    }
+    &-icon{
+      color: #838383;
+    }
+    &-count{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: #FFA542;
+      text-align: center;
+      border-radius: 15px;
+      color: #FFFFFF;
+      font-size: 12px;
+      z-index: 5;
+      left: 24px;
+      top: -5px;
     }
   }
   &__auth{

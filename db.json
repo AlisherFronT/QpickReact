@@ -274,6 +274,13 @@
       "login": "isko",
       "passwordAgain": "password123",
       "id": 4
+    },
+    {
+      "email": "user@mail.ru",
+      "password": "$2a$10$7NDvFhBMOlCY22PBTQXL3eb1T6V31UcWgEsCdW6zTSeZAU1B2fnsi",
+      "login": "user123",
+      "passwordAgain": "user12345",
+      "id": 5
     }
   ]
 }

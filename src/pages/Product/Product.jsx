@@ -91,7 +91,7 @@ const Product = () => {
                                 <li className='product__text'>{productInfo.info.keyboard}</li>
                             </div>
                         </ul>
-                        <p className="product__price">{productInfo.price} $ </p>
+                        <p className="product__price"> Price: {productInfo.price} $ </p>
                     </div>
                 </div>
             </section>
@@ -131,7 +131,7 @@ const Product = () => {
                                 <li className='product__text'>{productInfo.info.case}</li>
                             </div>
                         </ul>
-                        <p className="product__price">{productInfo.price} $ </p>
+                        <p className="product__price"> Price: {productInfo.price} $ </p>
                     </div>
                 </div>
             </section>
@@ -175,7 +175,7 @@ const Product = () => {
                                 <li className='product__text'>{productInfo.info.chip}</li>
                             </div>
                         </ul>
-                        <p className="product__price">{productInfo.price} $ </p>
+                        <p className="product__price"> Price: {productInfo.price} $ </p>
                     </div>
                 </div>
             </section>
@@ -185,8 +185,3 @@ const Product = () => {
 
 export default Product;
 
-// <li className="product__item">{productInfo.info.battery}</li>
-// <li className="product__item"> {productInfo.info.face}</li>
-// <li className="product__item">{productInfo.info.display}</li>
-// <li className="product__item">{productInfo.info.connect}</li>
-// <li className="product__item">{productInfo.info.chip}</li>

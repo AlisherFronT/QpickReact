@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-import {SlBasket} from "react-icons/sl"
+import {MdOutlineShoppingCart} from "react-icons/md"
 import {MdOutlineFavoriteBorder} from "react-icons/md"
 import {AiOutlineUser} from "react-icons/ai"
 
@@ -17,6 +17,10 @@ const Header = () => {
 
     const dispatch = useDispatch()
 
+    const productBasketCount = useSelector(store => store.basket.productsInCart)
+
+    const productFavoritesCount = useSelector(store => store.favorites.productsInFavorites)
+
     return (
         <header className='header'>
             <div className="header__top">
@@ -24,13 +28,24 @@ const Header = () => {
                     <img src={Qpick} alt=""/>
                 </Link>
                 <div className="header__btns">
-                    <Link to={'/basket'} className='header__basket'>
-                        <SlBasket/>
-                    </Link>
 
-                    <Link to={'/favorites'} className='header__favs'>
-                        <MdOutlineFavoriteBorder/>
-                    </Link>
+                    <div className="header__basket">
+                        <Link to={'/basket'} className='header__basket-icon'>
+                            {
+                                productBasketCount.length > 0 ?  <span className='header__basket-count'>{productBasketCount.length}</span> : null
+                            }
+                            <MdOutlineShoppingCart/>
+                        </Link>
+                    </div>
+
+                    <div className="header__favorites">
+                        <Link to={'/favorites'} className='header__favorites-icon'>
+                            {
+                                productFavoritesCount.length > 0 ? <span className="header__favorites-count">{productFavoritesCount.length}</span> : null
+                            }
+                            <MdOutlineFavoriteBorder/>
+                        </Link>
+                    </div>
 
                     {
                         user.email.length ?

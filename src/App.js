@@ -9,7 +9,6 @@ import Login from "./pages/Login/Login";
 import Catalog from "./pages/Catalog/Catalog";
 import Delivery from "./pages/Delivery/Delivery"
 import Basket from "./pages/Basket/Basket";
-import EmptyBasket from "./pages/Basket/EmptyBasket/EmptyBasket";
 import Favorites from "./pages/Favorites/Favorites";
 import Contacts from "./pages/Contacts/Contacts";
 import Product from "./pages/Product/Product";
@@ -35,7 +34,6 @@ function App() {
                 <Route path={'/catalog'} element={<Catalog/>}/>
                 <Route path={'/delivery'} element={<Delivery/>}/>
                 <Route path={'/basket'} element={<Basket/>}/>
-                <Route path={'/empty'} element={<EmptyBasket/>}/>
                 <Route path={'/favorites'} element={<Favorites/>}/>
                 <Route path={'/contacts'} element={<Contacts/>}/>
                 <Route path={'/product/:id'} element={<Product/>}/>
