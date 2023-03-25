@@ -1,31 +1,32 @@
 import React from 'react';
 import "./contacts.scss"
 
-
-import map from "../../assets/img/map.png";
-import {BsFillGeoAltFill} from "react-icons/bs"
-import {FaPhoneAlt} from "react-icons/fa"
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 const Contacts = () => {
     return (
         <section className='contacts'>
+            <h2 className="contacts__title">Contact Us</h2>
+            <p className="contacts__subtitle">We love hearing from you, our Shop customers.
+                Please contact us and we will make sure to get back to you as soon as we possibly can.</p>
             <div className="contacts__container">
-                <div className="contacts__columns">
-                    <div className="contacts__first-block">
-                        <h2 className="contacts__title">Our office</h2>
-                        <img src={map} alt="" className="contacts__map"/>
-                        <div className="contacts__address">
-                            <BsFillGeoAltFill/>
-                            <p>Аксай-3а, 62ф, Алматы, Казахстан
-                                3 этаж 35 кабинет</p>
+                <div className="container__left">
+                    <form className="contacts__form">
+                        <div className="double">
+                            <label>
+                                <TextField className='contacts__input' placeholder='Name' />
+                            </label>
+                            <label>
+                                <TextField className='contacts__input' placeholder='Surname' />
+                            </label>
                         </div>
-                    </div>
-
-
-                    <div className="contacts__num">
-                        <FaPhoneAlt/>
-                        <p>+996 777 777 777</p>
-                    </div>
+                        <label>
+                            <TextField className='contacts__input' placeholder='Phone Number' />
+                        </label>
+                        <textarea className='contacts__text' placeholder='Type your text here' />
+                        <Button className='contacts__form-btn' variant="contained">Submit</Button>
+                    </form>
                 </div>
             </div>
         </section>

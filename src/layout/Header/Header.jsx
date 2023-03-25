@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import {MdOutlineShoppingCart} from "react-icons/md"
 import {MdOutlineFavoriteBorder} from "react-icons/md"
 import {AiOutlineUser} from "react-icons/ai"
+import {RxExit} from "react-icons/rx"
 
 import './header.scss'
 import Qpick from "../../assets/img/QPICK.png"
@@ -49,13 +50,14 @@ const Header = () => {
 
                     {
                         user.email.length ?
-                            <p onClick={() =>
+                            <div onClick={() =>
                                 {dispatch(logOutAccount())
                                 localStorage.removeItem('user')
                                 }}
                                 className='header__auth'>
-                                 Exit
-                             </p>
+                                {user.login}
+                                    <RxExit/>
+                             </div>
                             :
                             <Link to={'/register'}  className='header__auth'>
                                 <AiOutlineUser/>

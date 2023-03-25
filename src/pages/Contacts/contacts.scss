@@ -1,21 +1,67 @@
-.contacts{
+.contacts {
   width: 100%;
-  &__columns{
-    display: flex;
+  max-width: 1200px;
+  padding: 30px 50px;
+  height: 700px;
+  font-family: 'Montserrat', sans-serif;
+  &__title{
+    font-size: 30px;
   }
-  &__first-block{
+  &__subtitle{
+    padding-top: 15px;
+    font-size: 18px;
+    width: 50%;
+    padding-bottom: 15px;
+  }
+  &__container {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    &__left{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+    &__right{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__input{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+  }
+  &__text{
+    height: 200px;
+  }
+  &__form{
     display: flex;
     flex-direction: column;
-    width: 770px;
-    height: 500px;
+    gap: 20px;
+    padding: 20px 0 0 20px;
+    &-btn{
+      width: 150px;
+      height: 50px;
+      text-align: center;
+      background: #0156FF;
+      color: #FFFFFF;
+      border-radius: 50px;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      font-family: 'Montserrat', sans-serif;
+    }
   }
-  &__title{
-    font-size: 18px;
-    line-height: 21px;
-  }
-  &__map{
-    width: 722px;
-    height: 420px;
-    object-fit: cover;
+  .double{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 }

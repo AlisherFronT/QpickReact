@@ -1,7 +1,6 @@
 .header{
   height: 70px;
   width: 100%;
-  border-bottom: 1px solid #838383;
   &__top{
     display: flex;
     justify-content: space-between;
@@ -9,8 +8,8 @@
     padding: 20px 60px 20px 60px;
   }
   &__btns{
-    width: 100%;
-    max-width: 200px;
+    gap: 30px;
+    max-width: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,7 +28,7 @@
       position: absolute;
       width: 20px;
       height: 20px;
-      background-color: #0070c9;
+      background-color: #FFA542;
       text-align: center;
       border-radius: 15px;
       color: #FFFFFF;
@@ -66,6 +65,9 @@
   }
   &__auth{
     color: #838383;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
     svg{
       width: 35px;
       height: 25px;

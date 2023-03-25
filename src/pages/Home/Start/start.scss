@@ -28,9 +28,11 @@
         font-size: 33px;
       }
       &__btn{
-        width: 200px;
-        height: 60px;
-        margin-left: 30px;
+        width: 200px!important;
+        height: 60px!important;
+        margin-left: 30px!important;
+        background-color: #FFFFFF!important;
+        color: #000000!important;
       }
     }
 

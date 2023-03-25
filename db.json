@@ -281,6 +281,13 @@
       "login": "user123",
       "passwordAgain": "user12345",
       "id": 5
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$vnyCRfBPYu42krIknuGLx.jOqm1D1TMmsXwJQ6o0L1iiW9E5PA2lW",
+      "login": "User",
+      "passwordAgain": "Password123",
+      "id": 6
     }
   ]
 }

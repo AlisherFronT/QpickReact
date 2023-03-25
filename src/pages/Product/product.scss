@@ -1,11 +1,15 @@
 .product{
-  padding: 10px 60px;
+  padding: 20px 70px;
   &__container{
     width: 100%;
+    max-width: 1200px;
     min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
     &-left{
       width: 50%;
       height: auto;
@@ -28,6 +32,7 @@
     height: 400px;
     min-height: 400px;
     object-fit: cover;
+    border-radius: 30px;
   }
   &__btns{
     width: 100%;
@@ -37,11 +42,13 @@
     gap: 20px;
   }
   &__btn-basket{
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: 40px;
   }
   &__btn-favorites{
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: 40px;
   }
   &__list{
