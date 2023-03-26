@@ -5,12 +5,32 @@ import {RiDeleteBin6Line} from "react-icons/ri"
 import map from "../../assets/img/map.png"
 import {BsFillPlusCircleFill} from "react-icons/bs"
 import {AiFillMinusCircle} from 'react-icons/ai'
-import {useSelector} from "react-redux";
+
+import {useSelector , useDispatch} from "react-redux";
 import EmptyBasket from "./EmptyBasket/EmptyBasket";
+import {decreaseQuantity, increaseQuantity, deleteProductInCart} from "../../redux/reducers/basket";
 
 const Basket = ({item}) => {
 
     const productCart = useSelector(store => store.basket.productsInCart)
+    const total = useSelector(store => store.basket.productsInCart.reduce((acc, item) => {
+        return acc + item.price * item.quantity;
+    }, 0));
+    const quantity = useSelector(store => store.basket.productsInCart.reduce((acc, item) => acc + item.quantity, 0))
+
+    const dispatch = useDispatch()
+
+    const increaseClick = (item) => {
+        dispatch(increaseQuantity(item.id ))
+    }
+
+    const decreaseClick = (item) => {
+        dispatch(decreaseQuantity(item.id))
+    }
+
+    const deleteClick = (item) => {
+        dispatch(deleteProductInCart(item.id))
+    }
 
     return productCart.length ?  (
         <div className='basket'>
@@ -28,18 +48,18 @@ const Basket = ({item}) => {
                                             <h2 className="basket__product-name">{item.title}</h2>
                                             <p className="basket__product-price">{item.price}$</p>
                                         </div>
-                                        <button className='basket__product-delete'>
+                                        <button onClick={() => deleteClick(item)} className='basket__product-delete'>
                                             <RiDeleteBin6Line />
                                         </button>
                                     </div>
 
                                     <div className="basket__product-bottom">
                                         <div className="basket__product-quantity">
-                                            <button className="basket__product-minus">
+                                            <button onClick={() => decreaseClick(item)} className="basket__product-minus">
                                                 <AiFillMinusCircle/>
                                             </button>
-                                            <div className="basket__product-quant">1</div>
-                                            <button className="basket__product-plus">
+                                            <div className="basket__product-quant">{item.quantity}</div>
+                                            <button onClick={() => increaseClick(item)} className="basket__product-plus">
                                                 <BsFillPlusCircleFill/>
                                             </button>
                                         </div>
@@ -60,7 +80,7 @@ const Basket = ({item}) => {
                         <div className="basket__tip">
                             <div className="basket__subtotal">
                                 <span>Total:</span>
-                                <span className="basket__amount">150 $</span>
+                                <span className="basket__amount">{total} $</span>
                             </div>
                         </div>
                         <button className='basket__btn'>Перейти к оформлению</button>
