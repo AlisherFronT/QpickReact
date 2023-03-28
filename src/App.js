@@ -15,6 +15,7 @@ import Product from "./pages/Product/Product";
 import {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {signInAccount} from "./redux/reducers/user";
+import CheckOut from "./pages/CheckOut/CheckOut";
 
 function App() {
 
@@ -37,6 +38,8 @@ function App() {
                 <Route path={'/favorites'} element={<Favorites/>}/>
                 <Route path={'/contacts'} element={<Contacts/>}/>
                 <Route path={'/product/:id'} element={<Product/>}/>
+                <Route path={'/checkout'} element={<CheckOut/>}/>
+
             </Route>
             <Route path={'/register'} element={<Register/>}/>
             <Route path={'/login'} element={<Login/>}/>

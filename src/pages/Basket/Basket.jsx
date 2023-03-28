@@ -2,13 +2,14 @@ import React from 'react';
 import "./basket.scss"
 
 import {RiDeleteBin6Line} from "react-icons/ri"
-import map from "../../assets/img/map.png"
 import {BsFillPlusCircleFill} from "react-icons/bs"
 import {AiFillMinusCircle} from 'react-icons/ai'
 
 import {useSelector , useDispatch} from "react-redux";
 import EmptyBasket from "./EmptyBasket/EmptyBasket";
 import {decreaseQuantity, increaseQuantity, deleteProductInCart} from "../../redux/reducers/basket";
+import Map from "../../components/Map/map";
+import {useNavigate} from "react-router-dom";
 
 const Basket = ({item}) => {
 
@@ -19,6 +20,8 @@ const Basket = ({item}) => {
     const quantity = useSelector(store => store.basket.productsInCart.reduce((acc, item) => acc + item.quantity, 0))
 
     const dispatch = useDispatch()
+
+    const navigate = useNavigate()
 
     const increaseClick = (item) => {
         dispatch(increaseQuantity(item.id ))
@@ -43,7 +46,7 @@ const Basket = ({item}) => {
                             productCart.map((item) => (
                                 <div className="basket__product">
                                     <div className="basket__product-top">
-                                        <img src={item.image} className="basket__product-img"/>
+                                        <img alt={item.title} src={item.image} className="basket__product-img"/>
                                         <div className="basket__product-info">
                                             <h2 className="basket__product-name">{item.title}</h2>
                                             <p className="basket__product-price">{item.price}$</p>
@@ -71,7 +74,7 @@ const Basket = ({item}) => {
 
                         <div className="basket__product-delivery">
                             <h2 className="basket__product-delivery-title">Delivery</h2>
-                            <img className="basket__product-delivery-map" src={map} alt=""/>
+                             <Map/>
                             <div className="basket__product-delivery-price">Delivery : 30 $</div>
                         </div>
                     </div>
@@ -83,7 +86,7 @@ const Basket = ({item}) => {
                                 <span className="basket__amount">{total} $</span>
                             </div>
                         </div>
-                        <button className='basket__btn'>Перейти к оформлению</button>
+                        <button onClick={() => navigate('/checkout')} className='basket__btn'>Checkout</button>
 
 
                     </div>
