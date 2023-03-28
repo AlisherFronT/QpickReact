@@ -59,7 +59,7 @@
   &__order{
     width: 100%;
     max-width: 450px;
-    height: 230px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -107,9 +107,10 @@
   &__payment{
     width: 100%;
     max-width: 450px;
-    height: 120px;
+    height: 160px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     background: #FFFFFF;
     border-radius: 30px;
     box-shadow: 0 0 20px rgb(0 0 0 / 10%);
@@ -118,6 +119,27 @@
       line-height: 24px;
       color: #101010;
       padding: 10px;
+    }
+    &-input{
+      width: 100%;
+      max-width: 200px;
+      display: flex;
+      gap: 20px;
+      padding: 0 20px;
+    }
+    &-label{
+      width: 100%;
+      max-width: 200px;
+      display: flex;
+      gap: 20px;
+      padding: 0 20px;
+    }
+    &-discount{
+      width: 400px;
+      height: 40px;
+      border: none;
+      outline: none;
+      background: #FFFFFF;
     }
   }
   &__phone{
