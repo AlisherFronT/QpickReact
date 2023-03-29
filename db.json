@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1674044805/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/251322_0_tpksnj.png/mxw_1440,f_auto",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1669124421/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/262015_0_hnwvzo.png/mxw_1440,f_auto",
       "title": "AirPods Pro",
       "price": 249,
       "type": "headphones",
@@ -288,6 +288,13 @@
       "login": "User",
       "passwordAgain": "Password123",
       "id": 6
+    },
+    {
+      "email": "guzlo@mail.ru",
+      "password": "$2a$10$YkZCkon0nKLMEKyou6hxHOwNl28Lzj6xusQGPIP47gM.u9nC3Ee4.",
+      "login": "Gmail",
+      "passwordAgain": "Gmail12345",
+      "id": 7
     }
   ]
 }
