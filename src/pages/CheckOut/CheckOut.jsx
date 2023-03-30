@@ -151,7 +151,6 @@ const CheckOut = ({ item }) => {
             </DialogContent>
             <DialogActions>
               <Button onClick={handleClose}>Close</Button>
-              <Button>More</Button>
             </DialogActions>
           </Dialog>
         </div>

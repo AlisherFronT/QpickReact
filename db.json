@@ -295,6 +295,20 @@
       "login": "Gmail",
       "passwordAgain": "Gmail12345",
       "id": 7
+    },
+    {
+      "email": "qqqqqqq@mail.ru",
+      "password": "$2a$10$6/3fejQ1DWxxSHpHuTfkz..0KSwuVrHyKGThav9JXACxCPt0GsAFG",
+      "login": "QQQQQ",
+      "passwordAgain": "Qwerty123456",
+      "id": 8
+    },
+    {
+      "email": "asdasdasdasd@gmail.com",
+      "password": "$2a$10$dXpftiHyOxH/g51o2o280.bduQzT2PlcqcM4Pe.MB2Tj68gljVgpW",
+      "login": "Asder",
+      "passwordAgain": "Alisher12345",
+      "id": 9
     }
   ]
 }

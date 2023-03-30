@@ -16,7 +16,7 @@ const Start = () => {
                     <h2 className="start__title">Are you ready?</h2>
                     <p className="start__desc">in our assortment you will choose for yourself the smartphone, earphone, tablet and other things that are of interest to you. Let's get started!</p>
                     <Button onClick={() => navigate('/catalog')} variant="contained" className='start__btn'>
-                        Catalog
+                      Check Catalog
                     </Button>
                 </div>
             </div>

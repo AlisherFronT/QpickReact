@@ -1,0 +1,52 @@
+.arrivals {
+    width: 100%;
+    &__container {
+        width: 100%;
+        padding: 30px 30px;
+        display: flex;
+        gap: 40px;
+    }
+    &__left {
+        width: 700px;
+        height: 600px;
+        background-image: url("../../../assets//img//macbookpro.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        color: #fff;
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    &__ipad{
+        width: 550px;
+        height: 320px;
+        background-image: url('../../../assets//img//ipad.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        color: #fff;
+        &-text{
+            padding: 40px 0;
+            font-size: 45px;
+            text-align: center;
+        }
+    }
+    &__airpods{
+        width: 550px;
+        height: 320px;
+        background-image: url('../../../assets//img//airpods.jpg');
+        background-size: cover;
+        border-radius: 20px;
+        color: #000;
+        &-text{
+            padding: 40px 0;
+            font-size: 45px;
+            text-align: center;
+        }
+    }
+}
