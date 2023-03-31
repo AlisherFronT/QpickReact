@@ -247,68 +247,6 @@
     }
   ],
   "users": [
-    {
-      "email": "alisher@mail.ru",
-      "password": "$2a$10$9yTH4DYteWKzqeXW9vZ2muLXjyaRCvtQkPFrWC2mxSLIPlrwpQvIK",
-      "login": "alisher",
-      "passwordAgain": "alisher007",
-      "id": 1
-    },
-    {
-      "email": "hazbulla@mail.com",
-      "password": "$2a$10$uds81GgAakETYQEKDT5MMesWmjhvNaP49bBlkiiGCvY71Tq/5rwPe",
-      "login": "hazabraza",
-      "passwordAgain": "password123",
-      "id": 2
-    },
-    {
-      "email": "almaz@mail.ru",
-      "password": "$2a$10$zIm2T6sUqtNPSMfgJAlmPOy6BsdTCC/QYtHL1tBysEg2GsR36.gqW",
-      "login": "almaz",
-      "passwordAgain": "almaz123",
-      "id": 3
-    },
-    {
-      "email": "iskender@mail.ru",
-      "password": "$2a$10$l33fjOkSJ6z6SIzJT2VNpu8zA6DjgByC6KB3cX3/sHpySMOO5VUJa",
-      "login": "isko",
-      "passwordAgain": "password123",
-      "id": 4
-    },
-    {
-      "email": "user@mail.ru",
-      "password": "$2a$10$7NDvFhBMOlCY22PBTQXL3eb1T6V31UcWgEsCdW6zTSeZAU1B2fnsi",
-      "login": "user123",
-      "passwordAgain": "user12345",
-      "id": 5
-    },
-    {
-      "email": "user@gmail.com",
-      "password": "$2a$10$vnyCRfBPYu42krIknuGLx.jOqm1D1TMmsXwJQ6o0L1iiW9E5PA2lW",
-      "login": "User",
-      "passwordAgain": "Password123",
-      "id": 6
-    },
-    {
-      "email": "guzlo@mail.ru",
-      "password": "$2a$10$YkZCkon0nKLMEKyou6hxHOwNl28Lzj6xusQGPIP47gM.u9nC3Ee4.",
-      "login": "Gmail",
-      "passwordAgain": "Gmail12345",
-      "id": 7
-    },
-    {
-      "email": "qqqqqqq@mail.ru",
-      "password": "$2a$10$6/3fejQ1DWxxSHpHuTfkz..0KSwuVrHyKGThav9JXACxCPt0GsAFG",
-      "login": "QQQQQ",
-      "passwordAgain": "Qwerty123456",
-      "id": 8
-    },
-    {
-      "email": "asdasdasdasd@gmail.com",
-      "password": "$2a$10$dXpftiHyOxH/g51o2o280.bduQzT2PlcqcM4Pe.MB2Tj68gljVgpW",
-      "login": "Asder",
-      "passwordAgain": "Alisher12345",
-      "id": 9
-    }
+    
   ]
 }

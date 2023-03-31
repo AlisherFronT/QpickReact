@@ -7,7 +7,7 @@ import axios from "axios";
 import { signInAccount } from "../../redux/reducers/user";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const Login = () => {
   const {
@@ -50,6 +50,12 @@ const Login = () => {
     <div className="login">
       <div className="login__card">
         <h2 className="login__title">Enter your Qpick ID information </h2>
+        <Link
+          className="login__link"
+          to={"/register"}
+        >
+          Back to Register
+        </Link>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="login__form"

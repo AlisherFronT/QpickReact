@@ -69,15 +69,15 @@ const Register = () => {
             <TextField
               {...register("email", {
                 required: {
-                  message: "Имя обязательно к заполнению",
+                  message: "Enter your email",
                   value: true,
                 },
                 minLength: {
-                  message: "Минимум 10 символа",
+                  message: "At least 10 letters",
                   value: 10,
                 },
                 pattern: {
-                  message: "Напишите правильно свой email",
+                  message: "Type your email correct",
                   value: /^[^ ]+@[^ ]+\.[a-z]{2,5}$/,
                 },
               })}
