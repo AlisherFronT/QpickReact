@@ -247,6 +247,19 @@
     }
   ],
   "users": [
-    
+    {
+      "email": "alisher@mail.ru",
+      "password": "$2a$10$HcUH0uG2NwA0SDDd9lZtr..9LTwrqUDaOrViKDSTXVWCQ5IpaRd9W",
+      "login": "alisher",
+      "passwordAgain": "Qwerty123",
+      "id": 1
+    },
+    {
+      "email": "user@mail.ru",
+      "password": "$2a$10$0WywOFi9kxgK0iZ75Oha/OxuE0eKUY4M.QaKqvQF5fxoHCBVURB9C",
+      "login": "user",
+      "passwordAgain": "password123",
+      "id": 2
+    }
   ]
 }

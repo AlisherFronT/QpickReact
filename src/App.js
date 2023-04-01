@@ -16,6 +16,7 @@ import {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {signInAccount} from "./redux/reducers/user";
 import CheckOut from "./pages/CheckOut/CheckOut";
+import AdminPanel from "./pages/AdminPanel/AdminPanel"
 
 function App() {
 
@@ -39,10 +40,10 @@ function App() {
                 <Route path={'/contacts'} element={<Contacts/>}/>
                 <Route path={'/product/:id'} element={<Product/>}/>
                 <Route path={'/checkout'} element={<CheckOut/>}/>
-
             </Route>
             <Route path={'/register'} element={<Register/>}/>
             <Route path={'/login'} element={<Login/>}/>
+            <Route path={'/*'} element={<AdminPanel/>}/>
         </Routes>
     </div>
   );
