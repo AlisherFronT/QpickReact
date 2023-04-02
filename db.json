@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1669124421/Croma%20Assets/Entertainment/Headphones%20and%20Earphones/Images/262015_0_hnwvzo.png/mxw_1440,f_auto",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1660803972361",
       "title": "AirPods Pro",
       "price": 249,
       "type": "headphones",
@@ -244,6 +244,20 @@
         "face": "Face ID",
         "connect": "Superfast 5G cellularfootnote⁵"
       }
+    },
+    {
+      "id": 17,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000",
+      "title": "asdsadad 12",
+      "price": 599,
+      "type": "phone",
+      "info": {
+        "display": "6.1-inch Super Retina XDR displayfootnote¹ ",
+        "chip": "A14 Bionic chip with 4-core GPU",
+        "battery": "Up to 22 hours video playbackfootnote⁴",
+        "face": "Face ID",
+        "connect": "Superfast 5G cellularfootnote⁵"
+      }
     }
   ],
   "users": [
@@ -253,13 +267,6 @@
       "login": "alisher",
       "passwordAgain": "Qwerty123",
       "id": 1
-    },
-    {
-      "email": "user@mail.ru",
-      "password": "$2a$10$0WywOFi9kxgK0iZ75Oha/OxuE0eKUY4M.QaKqvQF5fxoHCBVURB9C",
-      "login": "user",
-      "passwordAgain": "password123",
-      "id": 2
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,  useEffect } from "react";
 import "./checkout.scss";
 
 import InputMask from "react-input-mask";
@@ -22,12 +22,33 @@ import { useNavigate } from "react-router-dom";
 const CheckOut = ({ item }) => {
   const [open, setOpen] = useState(false);
 
+  const [formValid, setFormValid] = useState(false);
+
+
   const product = useSelector((store) => store.basket.productsInCart);
   const total = useSelector((store) =>
     store.basket.productsInCart.reduce((acc, item) => {
       return acc + item.price * item.quantity;
     }, 0)
   );
+
+  const handleInputValidation = () => {
+    const inputs = document.querySelectorAll('.checkout__input');
+    let isValid = true;
+
+    inputs.forEach(input => {
+      if (!input.value.trim()) {
+        isValid = false;
+      }
+    });
+
+    setFormValid(isValid);
+  };
+
+  useEffect(() => {
+    handleInputValidation();
+  }, [product]);
+
 
   const quantity = useSelector((store) => store.basket.quantity);
   const dispatch = useDispatch();
@@ -62,28 +83,33 @@ const CheckOut = ({ item }) => {
                 required
                 className="checkout__input"
                 placeholder="City"
+                onChange={handleInputValidation}
               />
               <input
                 required
                 className="checkout__input"
                 placeholder="Street/Square"
+                onChange={handleInputValidation}
               />
               <div className="input__info">
                 <input
                   required
                   className="input__info-input"
                   placeholder="Apartment"
+                  onChange={handleInputValidation}
                 />
                 <input
                   required
                   className="input__info-input"
                   placeholder="Entrance"
+                  onChange={handleInputValidation}
                 />
               </div>
               <input
                 required
                 className="checkout__input"
                 placeholder="House"
+                onChange={handleInputValidation}
               />
             </form>
           </div>
@@ -129,18 +155,22 @@ const CheckOut = ({ item }) => {
           <div className="checkout__phone">
             <span className="checkout__phone-title">Number</span>
             <InputMask
+              required
               mask={`+\\9\\96(999)99-99-99`}
               className="checkout__phone-input"
               placeholder="+996 ___-__-__-__"
+              onChange={handleInputValidation}
             />
           </div>
           <Button
-            className="checkout__btn"
-            variant="contained"
-            onClick={handleClickOpen}
+              className="checkout__btn"
+              variant="contained"
+              onClick={handleClickOpen}
+              disabled={!formValid}
           >
             Finish
           </Button>
+
           <Dialog
             open={open}
             onClose={handleClose}

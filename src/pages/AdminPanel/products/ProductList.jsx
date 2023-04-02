@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Datagrid, DateField, TextField, EditButton, DeleteButton, ReferenceField, ObjectField, FunctionField } from 'react-admin';
+import { List, Datagrid,  TextField, EditButton, DeleteButton,  FunctionField } from 'react-admin';
 
 const ProductList = (props) => {
     const getInfoFields = (record) => {
