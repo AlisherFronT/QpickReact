@@ -14,32 +14,6 @@
       }
     },
     {
-      "id": 2,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1632861342000",
-      "title": "AirPods 3",
-      "price": 169,
-      "type": "headphones",
-      "info": {
-        "sound": "Active Noise Cancellation and Transparency mode",
-        "waterproof": "Sweat and water resistant AirPods and charging caseᴼᴼ",
-        "battery": "Up to 20 hours of listening time with a single chargeᴼᴼᴼ",
-        "case": "Lightning Charging Case or MagSafe Charging Case"
-      }
-    },
-    {
-      "id": 3,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MV7N2?wid=445&hei=445&fmt=jpeg&qlt=95&.v=1551489688005",
-      "title": "AirPods",
-      "price": 129,
-      "type": "headphones",
-      "info": {
-        "sound": "Active Noise Cancellation and Transparency mode",
-        "waterproof": "Sweat and water resistant AirPods and charging caseᴼᴼ",
-        "battery": "Up to 20 hours of listening time with a single chargeᴼᴼᴼ",
-        "case": "Lightning Charging Case or MagSafe Charging Case"
-      }
-    },
-    {
       "id": 4,
       "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-spacegray-202011?wid=470&hei=556&fmt=png-alpha&.v=1604709508000",
       "title": "AirPods Max",
@@ -244,20 +218,6 @@
         "face": "Face ID",
         "connect": "Superfast 5G cellularfootnote⁵"
       }
-    },
-    {
-      "id": 17,
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone12-digitalmat-gallery-2-202111?wid=364&hei=333&fmt=png-alpha&.v=1635178709000",
-      "title": "asdsadad 12",
-      "price": 599,
-      "type": "phone",
-      "info": {
-        "display": "6.1-inch Super Retina XDR displayfootnote¹ ",
-        "chip": "A14 Bionic chip with 4-core GPU",
-        "battery": "Up to 22 hours video playbackfootnote⁴",
-        "face": "Face ID",
-        "connect": "Superfast 5G cellularfootnote⁵"
-      }
     }
   ],
   "users": [
@@ -267,6 +227,13 @@
       "login": "alisher",
       "passwordAgain": "Qwerty123",
       "id": 1
+    },
+    {
+      "email": "client@mail.ru",
+      "password": "$2a$10$YeGG9HPlMyAJLtz0oUeFtOMLiPetYMnqpjCFAVuhhGSGeevguHeOy",
+      "login": "cient",
+      "passwordAgain": "qwerty123",
+      "id": 2
     }
   ]
 }

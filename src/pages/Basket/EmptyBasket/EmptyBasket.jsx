@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./emptybasket.scss";
+import empty from "../../../assets/img/empty.png"
 import { Button } from "@chakra-ui/react";
-import empty from "../../../assets/img/empty.png";
 import { useNavigate } from "react-router-dom";
 
 const EmptyBasket = () => {

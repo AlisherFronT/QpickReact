@@ -22,6 +22,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__col-third">
                     <Link to={'/delivery'} className='footer__link'>Delivery Terms</Link>
+                    <Link to={'/catalog'} className='footer__link'>Catalog</Link>
                 </div>
                 <div className="footer__col-fourth">
                     <SlSocialVkontakte/>

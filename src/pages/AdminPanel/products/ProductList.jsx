@@ -49,7 +49,6 @@ const ProductList = (props) => {
                 <TextField source="title" />
                 <TextField source="price" />
                 <TextField source="type" />
-                <FunctionField label="Info" render={getInfoFields} />
                 <EditButton basePath='/products' />
                 <DeleteButton basePath='/products' />
             </Datagrid>

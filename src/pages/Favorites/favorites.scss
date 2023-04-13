@@ -18,3 +18,24 @@
     padding: 30px 70px
   }
 }
+.empty__container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.empty__title{
+  font-size: 30px;
+  margin: 0 auto;
+}
+.empty__btn{
+  width: 400px;
+  height: 70px;
+  background: #101010;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 21px;
+  text-decoration: none;
+  cursor: pointer;
+}

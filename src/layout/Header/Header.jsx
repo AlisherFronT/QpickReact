@@ -1,9 +1,11 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
+
 import {MdOutlineShoppingCart} from "react-icons/md"
 import {MdOutlineFavoriteBorder} from "react-icons/md"
 import {AiOutlineUser} from "react-icons/ai"
+import {IoMdSettings} from"react-icons/io"
 import {RxExit} from "react-icons/rx"
 
 import './header.scss'
@@ -47,6 +49,8 @@ const Header = () => {
                             <MdOutlineFavoriteBorder/>
                         </Link>
                     </div>
+
+
 
                     {
                         user.email.length ?
